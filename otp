@@ -1,0 +1,47 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+  display: flex;
+  flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.otp-container {
+  display: flex;
+  flex-direction: row;      /* ensure inputs are side-by-side */
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;        /* prevent wrapping */
+}
+
+.otp-input {
+  height: 60px;
+  width: 60px;
+  font-size: 32px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.otp-input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 10px rgba(108, 99, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.otp-input:hover {
+  border-color: #7f5af0;
+}
